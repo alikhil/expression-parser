@@ -6,11 +6,6 @@ namespace pp_week13.Parsing
     [Serializable]
     public  class ParsingException : Exception
     {
-        public ErrorKind Kind { get; set; }
-
-        public int InvalidCharacterPosition { get; set; }
-
-        public char InvalidCharacter { get; set; }
 
         public ParsingException()
         {
